@@ -41,7 +41,7 @@ const deletAll=()=>{
   return (
     <div className="app">
       <h1>mi lista de cosas por hacer</h1>
-      <span>cantidad de items:{items.length}</span>
+      <p>cantidad de items:{items.length}</p>
       <input
         type="text"
         value={newItem}
